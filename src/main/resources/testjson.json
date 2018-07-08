@@ -1,0 +1,569 @@
+{
+  "threads": 1,
+  "Computers" : [
+    {"Type":"A","Sig Success": "1234666","Sig Fail": "999283"},
+    {"Type":"B","Sig Success": "4424232","Sig Fail": "5555353"}]
+,"Phase 1" : [
+  {"Action":"Open Course","Department": "CS","Course": "SPL", "Space": "400", "Prerequisites" : []},
+  {"Action":"Open Course", "Department": "CS", "Course": "Data Bases", "Space": "30","Prerequisites" :  []},
+  {"Action": "Add Student", "Department": "CS", "Student": "123456789"}],
+  "Phase 2" :
+  [
+ 
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+    "Action": "Unregister",
+    "Student": "123456789",
+    "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+   {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+   {
+     "Action" : "Administrative Check",
+      "Department": "CS",
+     "Students": ["123456789"],
+      "Computer": "A",
+      "Conditions" : ["SPL", "Data Bases"]
+    },
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+   
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {
+     "Action" : "Administrative Check",
+     "Department": "CS",
+      "Students": ["123456789"],
+     "Computer": "A",
+     "Conditions" : ["SPL", "Data Bases"]
+    },
+    {
+      "Action" : "Administrative Check",
+      "Department": "CS",
+      "Students": ["123456789","kk"],
+      "Computer": "A",
+      "Conditions" : ["SPL", "Data Bases"]
+    },
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "123456789",
+      "Course": "Data Bases"},
+   
+    {
+      "Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "123456789",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+ 
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+
+    {"Action": "Participate In Course",
+      "Student": "11",
+      "Course": "SPL",
+      "Grade": ["98"]},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"},
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["60"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "SPL"},
+
+    {
+      "Action": "Participate In Course",
+      "Student": "11",
+      "Course": "Data Bases",
+      "Grade": ["62"]
+    },
+    {
+      "Action": "Unregister",
+      "Student": "11",
+      "Course": "Data Bases"}
+  ],
+  "Phase 3": [
+
+  ]
+
+}
+
